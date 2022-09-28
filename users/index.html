@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)# -->
+<html xml:lang="en" lang="en" dir="ltr" class="device-nonmobile palette-blanco unsafe-blur-off js laptop js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths chrome chrome105 osx" data-palette="blanco" prefix="og: http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A free image hosting service powered by Chevereto">
+    <title>Users - Dashboard - Chevereto</title>
+    <meta name="generator" content="Chevereto 4">
+<link rel="stylesheet" href="../src/peafowl.min.css">
+<link rel="stylesheet" href="../src/style.min.css">
+
+<link rel="stylesheet" href="../src/all.min.css">
+<script data-cfasync="false">document.documentElement.className+=" js";var devices=["phone","phablet","tablet","laptop","desktop","largescreen"],window_to_device=function(){for(var e=[480,768,992,1200,1880,2180],t=[],n="",d=document.documentElement.clientWidth||document.getElementsByTagName("body")[0].clientWidth||window.innerWidth,c=0;c<devices.length;++c)d>=e[c]&&t.push(devices[c]);for(0==t.length&&t.push(devices[0]),n=t[t.length-1],c=0;c<devices.length;++c)document.documentElement.className=document.documentElement.className.replace(devices[c],""),c==devices.length-1&&(document.documentElement.className+=" "+n),document.documentElement.className=document.documentElement.className.replace(/\s+/g," ");if("laptop"==n||"desktop"==n){var o=document.getElementById("pop-box-mask");null!==o&&o.parentNode.removeChild(o)}};window_to_device(),window.onresize=window_to_device;function jQueryLoaded(){!function(n,d){n.each(readyQ,function(d,e){n(e)}),n.each(bindReadyQ,function(e,i){n(d).bind("ready",i)})}(jQuery,document)}!function(n,d,e){function i(d,e){"ready"==d?n.bindReadyQ.push(e):n.readyQ.push(d)}n.readyQ=[],n.bindReadyQ=[];var u={ready:i,bind:i};n.$=n.jQuery=function(n){return n===d||void 0===n?u:void i(n)}}(window,document);
+            </script>
+
+    <link rel="shortcut icon" href="../src/favicon.png">
+    <link rel="icon" type="image/png" href="../src/favicon.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="../src/favicon.png" sizes="180x180">
+        <meta property="og:type" content="website">
+<meta property="og:url" content="#">
+<meta property="og:title" content="Chevereto image hosting">
+<meta property="og:image" content="..src/home_cover.jpg">
+<meta property="og:site_name" content="Chevereto">
+<meta property="og:description" content="A free image hosting service powered by Chevereto">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="A free image hosting service powered by Chevereto">
+<meta name="twitter:title" content="Users - Dashboard">
+<meta name="twitter:site" content="@chevereto">
+<style>
+.palette-dark:root{
+    --alertAccent: hsl(48, 89%, 50%);
+    --alertBackground: hsl(52, 100%, 90%);
+    --alertText: hsl(278, 22%, 10%);
+    --bodyBackground: hsl(245, 9%, 18%);
+    --bodyEmpty: hsl(245, 10%, 22%);
+    --bodySeparator: var(--bodyEmpty);
+    --bodyText: hsl(0, 0%, 80%);
+    --bodyTextSubtle: hsl(245, 5%, 45%);
+    --buttonAccentBackground: hsl(245, 10%, 10%);
+    --buttonAccentHoverBackground: hsl(245, 10%, 5%);
+    --buttonAccentHoverText: var(--bodyText);
+    --buttonAccentText: var(--bodyText);
+    --buttonDefaultBackground: var(--bodyEmpty);
+    --buttonDefaultHoverBackground: hsl(245, 5%, 10%);
+    --buttonDefaultHoverText: var(--colorAccent);
+    --buttonDefaultText: var(--bodyText);
+    --inputBackground:  hsl(245, 10%, 10%);
+    --inputPlaceholderText: hsl(245, 5%, 50%);
+    --inputText: var(--bodyText);
+    --menuBackground: hsla(245, 10%, 8%, 80%);
+    --menuItemHoverBackground: var(--colorAccent);
+    --menuItemHoverText: #FFF;
+    --menuItemText: var(--bodyText);
+    --menuSeparator: var(--bodyBackground);
+    --menuText: var(--bodyText);
+    --modalBackground: var(--bodyBackground);
+    --modalText: var(--bodyText);
+    --topBarBackground: hsl(245, 9%, 18%);
+    --topBarText: var(--bodyText);
+    --viewerBackground: hsl(245, 5%, 12%);
+}
+/*     --topBarBackground: hsl(150, 25%, 70%);
+ */
+.palette-lush:root{
+    --alertAccent: hsl(48, 89%, 50%);
+    --alertBackground: hsl(52, 100%, 90%);
+    --alertText: hsl(278, 22%, 10%);
+    --bodyBackground: hsl(150, 25%, 94%);
+    --bodyEmpty: hsl(150, 25%, 85%);
+    --bodySeparator: var(--bodyEmpty);
+    --bodyText: hsl(150, 25%, 16%);
+    --bodyTextDisabled: hsl(150, 25%, 50%);
+    --bodyTextSubtle: hsl(189, 6%, 45%);
+    --buttonAccentBackground: hsl(150, 25%, 70%);
+    --buttonAccentHoverBackground: hsl(150, 25%, 60%);
+    --buttonAccentHoverText: var(--buttonAccentText);
+    --buttonAccentText: hsl(150, 25%, 20%);
+    --buttonDefaultBackground: var(--bodyBackground);
+    --buttonDefaultBorder: hsl(150, 25%, 80%);
+    --buttonDefaultHoverBackground: hsl(150, 25%, 85%);
+    --buttonDefaultHoverBorder: hsl(150, 25%, 80%);
+    --buttonDefaultHoverText: hsl(150, 25%, 20%);
+    --buttonDefaultText: hsl(150, 25%, 20%);
+    --colorAccent: hsl(150, 40%, 50%);
+    --colorAccentStrong: hsl(150, 25%, 40%);
+    --inputBackground:  hsl(0, 0%, 100%);
+    --inputPlaceholderText: hsl(150, 25%, 40%, 0.2);
+    --inputText: var(--bodyText);
+    --linkText: var(--colorAccent);
+    --menuBackground: hsla(150, 25%, 90%, 80%);
+    --menuItemHoverBackground: var(--colorAccent);
+    --menuItemHoverText: #FFF;
+    --menuItemText: var(--bodyText);
+    --menuSeparator: hsl(150, 25%, 72%);
+    --menuText: var(--bodyText);
+    --modalBackground: var(--bodyBackground);
+    --modalText: var(--bodyText);
+    --topBarBackground: var(--bodyBackground);
+    --topBarText: var(--bodyText);
+    --listItemText: var(--bodyBackground);
+    /* --viewerBackground: hsl(150, 25%, 85%); */
+}
+.palette-graffiti:root {
+    --alertAccent: hsl(48, 89%, 50%);
+    --alertBackground: hsl(52, 100%, 90%);
+    --alertText: var(--bodyText);
+    --bodyBackground: hsl(279, 77%, 95%);
+    --bodyEmpty: hsl(278, 80%, 91%);
+    --bodySeparator: hsl(278, 80%, 94%);
+    --bodyText: hsl(278, 22%, 10%);
+    --bodyTextDisabled: hsl(278, 80%, 90%);
+    --buttonAccentBackground: var(--colorAccent);
+    --buttonAccentHoverBackground: var(--colorAccentStrong);
+    --buttonAccentHoverText: var(--buttonAccentText);
+    --buttonDefaultBackground: var(--bodyBackground);
+    --buttonDefaultBorder: hsl(278, 80%, 90%);
+    --buttonDefaultHoverBackground: var(--bodyEmpty);
+    --buttonDefaultHoverBorder: hsl(278, 80%, 90%);
+    --buttonDefaultHoverText: var(--colorAccentStrong);
+    --buttonDefaultText: var(--colorAccent);
+    --colorAccent: hsl(278, 33%, 44%);
+    --colorAccentStrong: hsl(278, 33%, 40%);
+    --inputBackground:  hsl(0, 0%, 100%);
+    --inputText: hsl(278, 22%, 10%);
+    --linkText: var(--colorAccent);
+    --menuBackground: hsla(278, 80%, 90%, 80%);
+    --menuItemHoverBackground: var(--colorAccent);
+    --menuItemHoverText: #FFF;
+    --menuItemText: var(--inputText);
+    --menuSeparator: hsl(278, 80%, 79%);
+    --menuText: var(--inputText);
+    --modalBackground: var(--bodyBackground);
+    --modalText: var(--inputText);
+    --topBarBackground: var(--bodyBackground);
+    --topBarText: var(--bodyText);
+    --listItemText: var(--bodyBackground);
+}
+.palette-abstract:root{
+    --alertAccent: hsl(48, 89%, 50%);
+    --alertBackground: hsl(52, 100%, 90%);
+    --alertText: hsl(278, 22%, 10%);
+    --bodyBackground: hsl(15, 73%, 97%);
+    --bodyEmpty: hsl(15, 100%, 92%);
+    --bodySeparator: var(--bodyEmpty);
+    --bodyText: hsl(15, 25%, 16%);
+    --bodyTextDisabled: hsl(15, 100%, 90%);
+    --bodyTextSubtle: hsl(189, 6%, 45%);
+    --buttonAccentBackground: var(--colorAccent);
+    --buttonAccentHoverBackground: var(--colorAccentStrong);
+    --buttonAccentHoverText: var(--buttonAccentText);
+    --buttonAccentText:  hsl(0, 0%, 100%);
+    --buttonDefaultBackground: var(--bodyBackground);
+    --buttonDefaultBorder: hsl(15, 70%, 90%);
+    --buttonDefaultHoverBackground: hsl(15, 100%, 95%);
+    --buttonDefaultHoverBorder: hsl(15, 80%, 90%);
+    --buttonDefaultHoverText: var(--colorAccentStrong);
+    --buttonDefaultText:  var(--colorAccentStrong);
+    --colorAccent: hsl(15, 70%, 30%);
+    --colorAccentStrong: hsl(15, 70%, 40%);
+    --inputBackground: var(--buttonAccentText);
+    --inputPlaceholderText: hsl(15, 100%, 20%, 0.3);
+    --inputText: var(--bodyText);
+    --linkText: var(--colorAccent);
+    --menuBackground: hsla(15, 100%, 90%, 80%);
+    --menuItemHoverBackground: var(--colorAccent);
+    --menuItemHoverText: #FFF;
+    --menuItemText: var(--bodyText);
+    --menuSeparator: hsl(15, 71%, 74%);
+    --menuText: var(--bodyText);
+    --modalBackground: var(--bodyBackground);
+    --modalText: var(--bodyText);
+    --topBarBackground: var(--bodyBackground);
+    --topBarText: var(--bodyText);
+    --listItemText: var(--bodyBackground);
+    /* --viewerBackground: hsl(15, 100%, 96%); */
+}
+.palette-cheers:root{
+    --alertAccent: hsl(48, 89%, 50%);
+    --alertBackground: hsl(52, 100%, 90%);
+    --alertText: hsl(278, 22%, 10%);
+    --bodyBackground: hsl(42, 60%, 91%);
+    --bodyEmpty: hsl(42, 80%, 82%);
+    --bodySeparator: var(--bodyEmpty);
+    --bodyText: hsl(42, 25%, 16%);
+    --bodyTextDisabled: hsl(42, 100%, 50%);
+    --bodyTextSubtle: hsl(189, 6%, 45%);
+    --buttonAccentBackground: hsl(42, 100%, 70%);
+    --buttonAccentHoverBackground: hsl(42, 100%, 60%);
+    --buttonAccentHoverText: var(--buttonAccentText);
+    --buttonAccentText: hsl(42, 80%, 20%);
+    --buttonDefaultBackground: var(--bodyBackground);
+    --buttonDefaultBorder: hsl(42, 70%, 80%);
+    --buttonDefaultHoverBackground: hsl(42, 80%, 85%);
+    --buttonDefaultHoverBorder: hsl(42, 80%, 80%);
+    --buttonDefaultHoverText: hsl(42, 80%, 20%);
+    --buttonDefaultText: hsl(42, 80%, 20%);
+    --colorAccent: hsl(42, 100%, 50%);
+    --colorAccentStrong: hsl(42, 100%, 40%);
+    --inputBackground:  hsl(0, 0%, 100%);
+    --inputPlaceholderText: hsl(42, 100%, 40%, 0.2);
+    --inputText: var(--bodyText);
+    --linkText: var(--colorAccent);
+    --menuBackground: hsla(42, 90%, 90%, 80%);
+    --menuItemHoverBackground: var(--colorAccent);
+    --menuItemHoverText: #FFF;
+    --menuItemText: var(--bodyText);
+    --menuSeparator: hsl(42, 70%, 67%);
+    --menuText: var(--bodyText);
+    --modalBackground: var(--bodyBackground);
+    --modalText: var(--bodyText);
+    --topBarBackground: var(--bodyBackground); /* hsl(42, 100%, 70%) */
+    --topBarText: var(--bodyText);
+    --listItemText: var(--bodyBackground);
+    /* --viewerBackground: hsl(42, 80%, 85%); */
+}
+.palette-imgur:root {
+    --alertAccent: var(--colorAccent);
+    --alertBackground: #463979;
+    --alertText: var(--bodyText);
+    --backgroundDarkAlpha: rgb(0 0 0 / 80%);
+    --backgroundLightAlpha: rgba(26, 25, 62, .9);
+    --bodyBackground: rgb(39,41,45);
+    --bodyEmpty: var(--buttonDefaultBackground);
+    --bodySeparator: #585D6A;
+    --bodyText: #DADCDF;
+    --bodyTextDisabled: #b4b9c2;
+    --bodyTextSubtle: #999;
+    --buttonAccentHoverText: var(--buttonAccentText);
+    --buttonAccentText: #FFF;
+    --buttonDefaultBackground: #464b57;
+    --buttonDefaultHoverBackground: var(--colorAccent);
+    --buttonDefaultHoverText: var(--buttonAccentText);
+    --buttonDefaultText: #b4b9c2;
+    --colorAccent: #1bb76e;
+    --colorAccentStrong: #31be7c;
+    --inputBackground: #191919;
+    --inputPlaceholderText: #9298a0;
+    --inputText: #f2f2f2;
+    --linkText: var(--colorAccent);
+    --menuBackground: hsl(222deg 6% 35% / 80%);
+    --menuItemHoverBackground: hsla(0,0%,80%,.29);
+    --menuItemHoverText: var(--buttonAccentText);
+    --menuItemText: var(--buttonAccentText);
+    --menuSeparator: rgb(11 14 15 / 10%);
+    --menuText: var(--buttonAccentText);
+    --modalBackground: rgb(60 66 75 / 50%);
+    --modalText: var(--buttonAccentText);
+    --topBarBackground: linear-gradient(180deg, #171544 0%, rgba(39,41,45,1));
+    --topBarText: var(--bodyText);
+    --viewerBackground: linear-gradient(180deg, transparent 0%, rgba(0,0,0,.1));
+}
+.palette-flickr:root {
+    --bodyBackground: #f2f5f6;
+    --colorAccent: #128fdc;
+    --colorAccentStrong: #1c9be9;
+    --linkText: #006dac;
+    --topBarBackground: rgb(0 0 0 / 90%);
+    --topBarText: #FFF;
+    --viewerBackground: #212124;
+}
+.palette-deviantart:root {
+    --alertAccent: var(--colorAccent);
+    --alertBackground: #9affde;
+    --bodyBackground: #06070d;
+    --bodyEmpty: var(--bodyBackground);
+    --bodyText: #f2f2f2;
+    --bodyTextSubtle: #5d5c6c;
+    --buttonAccentHoverBackground: var(--colorAccentStrong);
+    --buttonAccentHoverText: var(--buttonAccentText);
+    --buttonAccentText: #FFF;
+    --buttonDefaultBackground: var(--bodyBackground);
+    --buttonDefaultHoverBackground:var(--bodyBackground);
+    --buttonDefaultHoverText: var(--buttonDefaultText);
+    --buttonDefaultText: #f2f2f2;
+    --colorAccent: #00e59b;
+    --colorAccentStrong: #31be7c;
+    --inputBackground: #292f34;
+    --inputPlaceholderText: #838592;
+    --inputText: #838592;
+    --linkText: var(--colorAccent);
+    --menuBackground: var(--bodyBackground);
+    --menuItemHoverBackground: #282f34;
+    --menuItemHoverText: var(--colorAccent);
+    --menuItemText: #b1b1b9;
+    --menuText: var(--buttonAccentText);
+    --modalText: var(--buttonDefaultText);
+    --topBarBackground: #06070d;
+    --topBarText: #fff;
+    --viewerBackground: linear-gradient(180deg, rgba(26,28,35,1) 0%, rgba(11,13,18,1) 100%);
+}
+.palette-cmyk:root {
+    --alertAccent: var(--buttonAccentBackground);
+    --alertBackground: #fff5b3;
+    --alertText: var(--bodyText);
+    --bodyBackground: #000;
+    --bodyEmpty: #000e10;
+    --bodySeparator: #370f1d;
+    --bodyText: #00bcd4;
+    --bodyTextSubtle: var(--buttonAccentBackground);
+    --buttonAccentBackground: #ec407a;
+    --buttonAccentHoverBackground: var(--bodyText);
+    --buttonAccentHoverText: #fff;
+    --buttonAccentText: var(--buttonAccentHoverText);
+    --buttonDefaultBackground: var(--bodyBackground);
+    --buttonDefaultHoverBackground: var(--bodyBackground);
+    --buttonDefaultHoverText: #ffd54f;
+    --buttonDefaultText: var(--buttonAccentBackground);
+    --colorAccent: var( --buttonDefaultHoverText);
+    --inputBackground: #edcf6e;
+    --inputPlaceholderText: var(--bodyBackground);
+    --linkText: var(--buttonDefaultHoverText);
+    --menuBackground: rgb(0 0 0 / 70%);
+    --menuItemHoverBackground: var(--buttonAccentBackground);
+    --menuItemHoverText: var(--buttonAccentText);
+    --menuItemText: var(--buttonDefaultHoverText);
+    --menuSeparator: rgb(11 14 15 / 10%);
+    --menuText: var(--buttonAccentHoverText);
+    --modalBackground: var(--bodyBackground);
+    --modalText: var(--bodyText);
+    --topBarBackground: rgb(0 0 0 / 70%);
+    --topBarText: var(--bodyText);
+    --viewerBackground: linear-gradient(180deg, rgba(26,28,35,1) 0%, rgba(11,13,18,1) 100%);
+}
+</style>
+            <link rel="alternate" hreflang="x-default" href="#">
+            <link rel="alternate" hreflang="ar" href="#">
+<link rel="alternate" hreflang="bg-bg" href="#">
+<link rel="alternate" hreflang="cs" href="#">
+<link rel="alternate" hreflang="da" href="#">
+<link rel="alternate" hreflang="de" href="#">
+<link rel="alternate" hreflang="el" href="#">
+<link rel="alternate" hreflang="en" href="#">
+<link rel="alternate" hreflang="es" href="#">
+<link rel="alternate" hreflang="et-ee" href="#">
+<link rel="alternate" hreflang="fa" href="#">
+<link rel="alternate" hreflang="fi" href="#">
+<link rel="alternate" hreflang="fr" href="#">
+<link rel="alternate" hreflang="he" href="#">
+<link rel="alternate" hreflang="hr" href="#">
+<link rel="alternate" hreflang="hu" href="#">
+<link rel="alternate" hreflang="id" href="#">
+<link rel="alternate" hreflang="it" href="#">
+<link rel="alternate" hreflang="ja" href="#">
+<link rel="alternate" hreflang="ko" href="#">
+<link rel="alternate" hreflang="lt-lt" href="#">
+<link rel="alternate" hreflang="nb" href="#">
+<link rel="alternate" hreflang="nl" href="#">
+<link rel="alternate" hreflang="pl" href="#">
+<link rel="alternate" hreflang="pt" href="#">
+<link rel="alternate" hreflang="pt-br" href="#">
+<link rel="alternate" hreflang="ru" href="#">
+<link rel="alternate" hreflang="sk" href="#">
+<link rel="alternate" hreflang="sr-rs" href="#">
+<link rel="alternate" hreflang="sv" href="#">
+<link rel="alternate" hreflang="th" href="#">
+<link rel="alternate" hreflang="tr" href="#">
+<link rel="alternate" hreflang="uk" href="#">
+<link rel="alternate" hreflang="vi" href="#">
+<link rel="alternate" hreflang="zh-cn" href="#">
+<link rel="alternate" hreflang="zh-tw" href="#">
+<style type="text/css"></style></head>
+<body id="dashboard" class="" style="">
+    <header id="top-bar" class="top-bar top-bar--main">
+        <div class="content-width">
+            <div id="logo" class="top-bar-logo">
+                <a href="#"><img src="../src-content/logo_1664398825770_5e610c.svg" alt="Chevereto"></a>
+            </div>
+
+                            <ul class="top-bar-left float-left">
+                    <li data-action="top-bar-menu-full" data-nav="mobile-menu" class="top-btn-el phone-show hidden">
+                        <span class="top-btn-text"><span class="icon fas fa-bars"></span></span>
+                    </li>
+                                            <li id="top-bar-explore" data-nav="explore" class="phone-hide pop-keep-click pop-btn pop-btn-show">
+                                                        <span class="top-btn-text"><span class="icon fas fa-compass"></span><span class="btn-text phone-hide phablet-hide">Explore</span></span>
+                            <div class="pop-box pbcols2 arrow-box arrow-box-top anchor-left">
+
+                                <div class="pop-box-inner pop-box-menu pop-box-menucols">
+                                                                            <div class="pop-box-label"><i class="fas fa-drafting-compass"></i> Discovery</div>
+                                        <ul>
+                                            <li><a href="#"><span class="btn-icon fas fa-history"></span><span class="btn-text">Recent</span></a></li><li><a href="#"><span class="btn-icon fas fa-poll"></span><span class="btn-text">Trending</span></a></li><li><a href="#"><span class="btn-icon fas fa-heart"></span><span class="btn-text">Popular</span></a></li><li><a href="#"><span class="btn-icon fas fa-play"></span><span class="btn-text">Animated</span></a></li><li><a href="#"><span class="btn-icon fas fa-rss"></span><span class="btn-text">Following</span></a></li>                                        </ul>
+                                                                                                                <div class="or-separator margin-top-5 margin-bottom-5"></div>
+                                        <div class="pop-box-label phone-margin-top-20"><i class="fas fa-columns"></i> Categories</div>
+                                        <ul>
+                                            <li data-content="category" data-category-id=""><a data-content="category-name" data-link="category-url" href="#">All</a></li>
+<li data-content="category" data-category-id="8"><a data-content="category-name" data-link="category-url" href="#">Abstract</a></li>
+<li data-content="category" data-category-id="1"><a data-content="category-name" data-link="category-url" href="#">Animals</a></li>
+<li data-content="category" data-category-id="5"><a data-content="category-name" data-link="category-url" href="#">Art</a></li>
+<li data-content="category" data-category-id="9"><a data-content="category-name" data-link="category-url" href="#">City</a></li>
+<li data-content="category" data-category-id="7"><a data-content="category-name" data-link="category-url" href="#">Landscapes</a></li>
+<li data-content="category" data-category-id="6"><a data-content="category-name" data-link="category-url" href="#">Movies</a></li>
+<li data-content="category" data-category-id="3"><a data-content="category-name" data-link="category-url" href="#">Nature</a></li>
+<li data-content="category" data-category-id="2"><a data-content="category-name" data-link="category-url" href="#">People</a></li>
+<li data-content="category" data-category-id="4"><a data-content="category-name" data-link="category-url" href="#">Tech</a></li>
+                                        </ul>
+                                                                    </div>
+                            </div>
+                        </li>
+
+                                            <li id="top-bar-random" data-nav="random" class="top-btn-el">
+                            <a href="#"><span class="top-btn-text"><span class="icon fas fa-random"></span><span class="btn-text phone-hide phablet-hide">Random</span></span></a>
+                        </li>
+
+                                            <li data-action="top-bar-search" data-nav="search" class="phone-hide pop-btn">
+                            <span class="top-btn-text"><span class="icon fas fa-search"></span><span class="btn-text phone-hide phablet-hide">Search</span></span>
+                        </li>
+                        <li data-action="top-bar-search-input" class="top-bar-search-input phone-hide pop-btn pop-keep-click hidden">
+                            <div class="input-search">
+                                <form action="#" method="get">
+                                    <input class="search" type="text" placeholder="Search" autocomplete="off" spellcheck="false" name="q">
+                                </form>
+                                <span class="fas fa-search icon--search"></span><span class="icon--close fas fa-times" data-action="clear-search" title="Close"></span><span class="icon--settings fas fa-cog" data-modal="form" data-target="advanced-search" title="Advanced search"></span>
+                            </div>
+                        </li>
+                        <div class="hidden" data-modal="advanced-search">
+                            <span class="modal-box-title"><i class="fas fa-cog"></i> Advanced search</span>
+                            <form action="#" method="get" data-beforeunload="continue">
+		<div class="input-label">
+		<label for="as_q">All these words</label>
+		<input type="text" id="as_q" name="as_q" class="text-input" placeholder="Type the important words: tri-colour rat terrier">
+	</div>
+		<div class="input-label">
+		<label for="as_epq">This exact word or phrase</label>
+		<input type="text" id="as_epq" name="as_epq" class="text-input" placeholder="Put exact words in quotes: &quot;rat terrier&quot;">
+	</div>
+		<div class="input-label">
+		<label for="as_eq">None of these words</label>
+		<input type="text" id="as_eq" name="as_eq" class="text-input" placeholder="Put a minus sign just before words you don&#39;t want: -rodent -&quot;Jack Russell&quot;">
+	</div>
+			<div class="c7 input-label">
+		<label for="as_cat">Category</label>
+		<select name="as_cat" id="as_cat" class="text-input">
+		<option value="">All</option>
+		<option value="abstract">Abstract</option>
+		<option value="animals">Animals</option>
+		<option value="art">Art</option>
+		<option value="city">City</option>
+		<option value="landscapes">Landscapes</option>
+		<option value="movies">Movies</option>
+		<option value="nature">Nature</option>
+		<option value="people">People</option>
+		<option value="tech">Tech</option>
+			</select>
+	</div>
+			<div class="c7 input-label">
+		<label for="as_ip">IP address</label>
+		<input type="text" id="as_ip" name="as_ip" class="text-input" placeholder="172.18.0.1">
+	</div>
+	</form>
+                        </div>
+                                    </ul>
+                        <ul class="top-bar-right float-right keep-visible">
+
+                                                <li data-action="top-bar-upload" data-link="js" data-nav="upload" class="top-btn-el">
+                        <a href="#" class="top-btn-text"><span class="icon fas fa-cloud-upload-alt"></span><span class="btn-text phone-hide phablet-hide">Upload</span></a>
+                    </li>
+
+                                        <li data-action="top-bar-notifications" class="top-bar-notifications phone-hide pop-btn pop-keep-click">
+                            <div class="top-btn-text position-relative">
+                                <div class="soft-hidden menu-fullscreen-show"><i class="icon fas fa-bell"></i><span data-content="notifications-counter" class="top-btn-number">0</span><span class="btn-text">Notifications</span></div>
+                                <div class="menu-fullscreen-hide"><span class="icon fas fa-bell"></span><span data-content="notifications-counter" class="top-btn-number">0</span></div>
+                            </div>
+                            <div class="top-bar-notifications-container c9 pop-box arrow-box arrow-box-top anchor-center">
+                                <div class="pop-box-inner">
+                                    <div class="top-bar-notifications-header phone-hide phablet-hide">
+                                        <h2><i class="fas fa-bell"></i> Notifications</h2>
+                                    </div>
+                                    <div class="top-bar-notifications-list antiscroll-wrap hidden">
+                                        <ul class="antiscroll-inner r8 overflow-scroll overflow-x-hidden touch-scroll"></ul>
+                                    </div>
+                                    <div class="loading text-align-center margin-top-20 margin-bottom-20 hidden">
+                                        <div class="loading-indicator"></div>
+                                        <div class="loading-text">loading</div>
+                                    </div>
+                                    <div class="empty text-align-center margin-top-20 margin-bottom-20 hidden">
+                                        You don't have notifications                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                                        <li id="top-bar-user" data-nav="user" class="pop-btn pop-keep-click">
+                        <span class="top-btn-text">
+                                                            <img src="../src-content/av_16644096702.jpg" alt="" class="user-image">
+                                                        <span class="user-image default-user-image hidden"><span class="icon fas fa-user-circle"></span></span>
+                            <span class="btn-text phone-hide phablet-hide">@admin</span>
+                        </span>
+                        <div class="pop-box arrow-box arrow-box-top anchor-right">
+                            <div class="pop-box-inner pop-box-menu">
+                                <ul>
+                                    <li class="with-icon"><a href="#"><span class="btn-icon fas fa-id-card"></span>My Profile</a></li>
+                                    <li class="with-icon"><a href="#"><span class="btn-icon fas fa-images"></span>Albums</a></li>
+                                                                            <li class="with-icon"><a href="#"><span class="btn-icon fas fa-heart"></span>Liked</a></li>
+                                                                                                                <li class="with-icon"><a href="#"><span class="btn-icon fas fa-rss"></span>Following</a></li>
+                                        <li class="with-icon"><a href="#"><span class="btn-icon fas fa-users"></span>Followers</a></li>
+                                                                        <li class="with-icon">
+                                        <a href="#"><span class="btn-icon fas fa-user-cog"></span>Settings</a>
+                                    </li>
+                                    <div class="or-separator margin-top-5 margin-bottom-5"></div>
+                                    <div class="pop-box-label"><i class="fas fa-swatchbook"></i> Palette</div>
+                                    <li data-action="top-bar-tone">
+                                        <div class="pop-box-block pop-keep-click" data-content="palettes">
+<a class="current" data-action="palette" data-palette="blanco" data-id="0">Blanco</a><a class="" data-action="palette" data-palette="dark" data-id="1">Dark</a><a class="" data-action="palette" data-palette="flickr" data-id="2">Flickr</a><a class="" data-action="palette" data-palette="imgur" data-id="3">Imgur</a><a class="" data-action="palette" data-palette="deviantart" data-id="4">DeviantArt</a><a class="" data-action="palette" data-palette="lush" data-id="5">Lush</a><a class="" data-action="palette" data-palette="graffiti" data-id="6">Graffiti</a><a class="" data-action="palette" data-palette="abstract" data-id="7">Abstract</a><a class="" data-action="palette" data-palette="cheers" data-id="8">Cheers</a><a class="" data-action="palette" data-palette="cmyk" data-id="9">CMYK</a>                                        </div>
+                                    </li>
+                                                                            <div class="or-separator margin-0 margin-top-5 margin-bottom-5"></div>
+                                        <div class="pop-box-label"><i class="fas fa-user-tie"></i> Administrator</div>
+                                        <li class="with-icon">
+                                            <a href="#"><span class="btn-icon fas fa-check-double"></span>Moderate</a>
+                                        </li>
+                                                                                    <li class="with-icon"><a href="#"><span class="btn-icon fas fa-tachometer-alt"></span>Dashboard</a></li>
+                                            <li class="with-icon"><a href="../settings"><span class="btn-icon fas fa-cog"></span>Settings</a></li>
+
+                                    <div class="or-separator margin-0 margin-top-5 margin-bottom-5"></div>
+                                    <li class="with-icon">
+                                    <form id="form-logout" action="#" method="post" class="display-inline">
+                                        <input type="hidden" name="auth_token" value="0ef944b2068e2104153fd7c716120954e9dda087">
+                                    </form>
+                                        <a data-action="logout"><span class="btn-icon fas fa-sign-out-alt"></span>Sign out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                                                                                            <li data-nav="about" class="phone-hide pop-btn pop-keep-click">
+                            <span class="top-btn-text">
+                                <span class="icon far fa-question-circle"></span><span class="btn-text phone-hide phablet-hide laptop-hide tablet-hide desktop-hide">About</span>
+                            </span>
+                            <div class="pop-box arrow-box arrow-box-top anchor-right">
+                                <div class="pop-box-inner pop-box-menu">
+                                    <ul>
+                                                                                    <li class="with-icon"><a href="#"><span class="btn-icon fas fa-landmark"></span> Terms of service</a>
+                                            </li>
+                                                                <li class="with-icon"><a href="#"><span class="btn-icon fas fa-lock"></span> Privacy</a>
+                                            </li>
+                                                                <li class="with-icon"><a href="#"><span class="btn-icon fas fa-at"></span> Contact</a>
+                                            </li>
+                                                                <li class="with-icon"><a href="#"><span class="btn-icon fas fa-code"></span> Plugin</a>
+                                            </li>
+                                                        </ul>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </header>
+    <div class="top-sub-bar top-sub-bar--1 margin-bottom-5 margin-top-5">
+    <div class="content-width">
+        <div class="header header-tabs no-select">
+            <h1 class="header-title">
+                <span class="phone-hide header-icon fas fa-tachometer-alt"></span>
+                Dashboard            </h1>
+			<div class="phone-display-inline-block phablet-display-inline-block hidden tab-menu --hide" data-action="tab-menu">
+    <span class="btn-icon fas fa-users" data-content="tab-icon"></span><span class="btn-text" data-content="current-tab-label">Users</span><span class="tab-menu--hide btn-icon fas fa-angle-down"></span><span class="tab-menu--show btn-icon fas fa-angle-up"></span>
+</div>
+<div class="content-tabs-container content-tabs-container--mobile phone-display-block phablet-display-block">
+    <div class="content-tabs-shade phone-show phablet-show hidden"></div>
+    <div class="content-tabs-wrap">
+        <ul class="content-tabs">
+            <li class=""><a href="../"><span class="btn-icon fas fa-chart-bar"></span><span class="btn-text">Stats</span></a></li>
+<li class=""><a href="../images"><span class="btn-icon fas fa-image"></span><span class="btn-text">Images</span></a></li>
+<li class=""><a href="../albums"><span class="btn-icon fas fa-images"></span><span class="btn-text">Albums</span></a></li>
+<li class="current"><a href="../users"><span class="btn-icon fas fa-users"></span><span class="btn-text">Users</span></a></li>
+<li class=""><a href="../bulk-importer"><span class="btn-icon fas fa-layer-group"></span><span class="btn-text">Bulk importer</span></a></li>
+<li class=""><a href="../settings"><span class="btn-icon fas fa-cog"></span><span class="btn-text">Settings</span></a></li>
+        </ul>
+    </div>
+</div>
+		</div>
+    </div>
+</div>
+<div class="top-sub-bar top-sub-bar--2 follow-scroll margin-bottom-5 margin-top-5">
+    <div class="content-width">
+        <div class="header header-tabs no-select">
+    <div class="phone-display-inline-block phablet-display-inline-block hidden tab-menu --hide" data-action="tab-menu">
+    <span class="btn-icon fas fa-crown" data-content="tab-icon"></span><span class="btn-text" data-content="current-tab-label">Top</span><span class="tab-menu--hide btn-icon fas fa-angle-down"></span><span class="tab-menu--show btn-icon fas fa-angle-up"></span>
+</div>
+<div class="content-tabs-container content-tabs-container--mobile phone-display-block phablet-display-block">
+    <div class="content-tabs-shade phone-show phablet-show hidden"></div>
+    <div class="content-tabs-wrap">
+        <ul class="content-tabs">
+            <li class="current"><a id="list-top-users-link" data-tab="list-top-users" href="#"><span class="btn-icon fas fa-crown"></span><span class="btn-text">Top</span></a></li>
+<li class=""><a id="list-most-recent-link" data-tab="list-most-recent" href="#"><span class="btn-icon fas fa-history"></span><span class="btn-text">Most recent</span></a></li>
+<li class=""><a id="list-most-oldest-link" data-tab="list-most-oldest" href="#"><span class="btn-icon fas fa-fast-backward"></span><span class="btn-text">Oldest</span></a></li>
+<li class=""><a id="list-most-viewed-link" data-tab="list-most-viewed" href="#"><span class="btn-icon fas fa-poll"></span><span class="btn-text">Most viewed</span></a></li>
+<li class=""><a id="list-most-liked-link" data-tab="list-most-liked" href="#"><span class="btn-icon fas fa-heart"></span><span class="btn-text">Most liked</span></a></li>
+<li class=""><a id="list-user-az-asc-link" data-tab="list-user-az-asc" href="#"><span class="btn-icon fas fa-sort-alpha-down"></span><span class="btn-text">AZ</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<div data-modal="form-assign-category" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-columns"></i> Assign category</span>
+	    <div class="image-preview"></div>
+	<p>All the selected images will be assigned to this category.</p>
+	<div class="input-label c8">
+		<label for="form-category-id">Category</label>
+<select name="form-category-id" id="form-category-id" class="text-input">
+		<option value="" selected="">Select category</option>
+		<option value="8">Abstract</option>
+		<option value="1">Animals</option>
+		<option value="5">Art</option>
+		<option value="9">City</option>
+		<option value="7">Landscapes</option>
+		<option value="6">Movies</option>
+		<option value="3">Nature</option>
+		<option value="2">People</option>
+		<option value="4">Tech</option>
+	</select>
+	</div>
+	</div>
+
+<div data-modal="form-flag-safe" class="hidden">
+	<span class="modal-box-title"><i class="far fa-flag"></i> Confirm flag content as safe</span>
+    <div class="image-preview"></div>
+	<p>Do you really want to flag this content as safe?</p>
+</div>
+<div data-modal="form-flag-unsafe" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-flag"></i> Confirm flag content as unsafe</span>
+    <div class="image-preview"></div>
+	<p>Do you really want to flag this content as unsafe?</p>
+</div>
+
+<div data-modal="form-approve-single" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-check-double"></i> Confirm approval</span>
+    <div class="image-preview"></div>
+	<p>Do you really want to approve this content? This can't be undone.</p>
+</div>
+<div data-modal="form-delete-single" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-trash-alt"></i> Confirm deletion</span>
+    <div class="image-preview"></div>
+	<p>Do you really want to remove this content? This can't be undone.</p>
+</div>
+<div data-modal="form-approve-multiple" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-check-double"></i> Confirm approval</span>
+    <div class="image-preview"></div>
+	<p>Do you really want to approve all the selected content? This can't be undone.</p>
+</div>
+<div data-modal="form-delete-multiple" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-trash-alt"></i> Confirm deletion</span>
+    <div class="image-preview"></div>
+	<p>Do you really want to remove all the selected content? This can't be undone.</p>
+</div>
+    <div class="header-content-right">
+
+    </div>
+            <div class="header-content-right">
+            <div class="header--height header--centering">
+                <a class="btn btn-small default" data-modal="form" data-target="modal-add-user"><i class="fas fa-user-plus margin-right-5"></i>Add user</a>
+            </div>
+        </div>
+        <div data-modal="modal-add-user" class="hidden" data-submit-fn="CHV.fn.user.add.submit" data-ajax-deferred="CHV.fn.user.add.complete">
+            <span class="modal-box-title"><i class="fas fa-user-plus"></i> Add user</span>
+            <div class="modal-form">
+                <div class="input-label c8">
+                    <label for="form-role">Role</label>
+                    <select name="form-role" id="form-role" class="text-input">
+                        <option value="user" selected="">User</option>
+                        <option value="manager">Manager</option>
+                        <option value="admin">Administrator</option>
+                    </select>
+                </div>
+                <div class="input-label c11">
+                    <label for="username">Username</label>
+                    <input type="text" name="form-username" id="form-username" class="text-input" maxlength="16" rel="tooltip" data-tiptip="right" pattern="^[\w]{3,16}$" data-title="3 to 16 characters&lt;br&gt;Letters, numbers and &quot;_&quot;" placeholder="Username" required="">
+                    <span class="input-warning red-warning"></span>
+                </div>
+                <div class="input-label c11">
+                    <label for="form-name">Email</label>
+                    <input type="email" name="form-email" id="form-email" class="text-input" placeholder="Email address" required="">
+                    <span class="input-warning red-warning"></span>
+                </div>
+                <div class="input-label c11">
+                    <label for="form-name">Password</label>
+                    <input type="password" name="form-password" id="form-password" class="text-input" title="6 characters min" pattern="^.{6,128}$" rel="tooltip" data-tiptip="right" placeholder="Password" required="">
+                    <span class="input-warning red-warning"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="content-width">
+	<div class="">
+		<div id="content-listing-wrapper"><div id="content-listing-tabs" class="tabbed-listing">
+    <div id="tabbed-content-group">
+                <div id="list-top-users" class="tabbed-content content-listing visible list-users jsly" data-action="list" data-list="users" data-params="list=users&amp;sort=image_count_desc&amp;page=1" data-params-hidden="" data-columns="5">
+                            <div class="pad-content-listing" style="width: 100%; height: 694px;"><div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="1" style="width: 345.6px;">
+	<a href="#" class="list-item-image fixed-size" style="min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+
+		<img src="../src-content/av_16644096772.jpg" alt="" style="width: auto; height: 100%;">
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">rodo</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">24<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+<div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="2" style="width: 345.6px; left: 347px;">
+	<a href="#" class="list-item-image fixed-size" style="background: url(&quot;../src-content/bkg_1664409689.md.jpg&quot;) center center / cover; min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+
+		<img src="../src-content/av_1664409689.png" alt="" style="width: auto; height: 100%;">
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">nasa</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">11<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+<div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="3" style="width: 345.6px; left: 694px;">
+	<a href="#" class="list-item-image fixed-size" style="min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+		<svg class="icon empty" style="width: auto; height: 100%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+				<path id="shape" fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/>
+			</svg>
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">elvira</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">10<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+<div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="4" style="width: 345.6px; left: 1041px;">
+	<a href="#" class="list-item-image fixed-size" style="background: url(&quot;../src-content/bkg_1664409688.md.jpg&quot;) center center / cover; min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+
+		<img src="../src-content/av_1664409688.jpg" alt="" style="width: auto; height: 100%;">
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">alex</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">8<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+<div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="5" style="width: 345.6px; left: 1388px;">
+	<a href="#" class="list-item-image fixed-size" style="background: url(&quot;../src-content/bkg_1664409677.md.jpg&quot;) center center / cover; min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+
+		<img src="../src-content/av_1664409677.jpg" alt="" style="width: auto; height: 100%;">
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">tony</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">3<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+<div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="1" style="width: 345.6px; top: 347px;">
+	<a href="#" class="list-item-image fixed-size" style="background: url(&quot;../src-content/bkg_1664409670.md.jpg&quot;) center center / cover; min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+
+		<img src="../src-content/av_1664409670.jpg" alt="" style="width: auto; height: 100%;">
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">manny</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">1<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+<div class="list-item fixed-size c8 gutter-margin-right-bottom jsly position-absolute --show" data-type="user" data-col="2" style="width: 345.6px; left: 347px; top: 347px;">
+	<a href="#" class="list-item-image fixed-size" style="background: url(&quot;../src-content/bkg_1664409670.md2.jpg&quot;) center center / cover; min-height: 0px; height: 346px;">
+		<div class="list-item-avatar-cover image-container">
+
+		<img src="../src-content/av_16644096702.jpg" alt="" style="width: auto; height: 100%;">
+		</div>
+	</a>
+	<div class="list-item-desc">
+		<div class="list-item-desc-title">
+            <a class="list-item-desc-title-link" href="#">admin</a>
+        </div>
+		<div class="position-absolute right-10 bottom-10 text-align-right phone-hide">0<span class="fas fa-image margin-left-5"></span></div>
+	</div>
+</div>
+</div>
+                        </div>
+            <div id="list-most-recent" class="tabbed-content content-listing hidden list-users" data-action="list" data-list="users" data-params="list=users&amp;sort=date_desc&amp;page=1" data-params-hidden="" data-load="classic">
+        </div>
+        <div id="list-most-oldest" class="tabbed-content content-listing hidden list-users" data-action="list" data-list="users" data-params="list=users&amp;sort=date_asc&amp;page=1" data-params-hidden="" data-load="classic">
+        </div>
+        <div id="list-most-viewed" class="tabbed-content content-listing hidden list-users" data-action="list" data-list="users" data-params="list=users&amp;sort=views_desc&amp;page=1" data-params-hidden="" data-load="classic">
+        </div>
+        <div id="list-most-liked" class="tabbed-content content-listing hidden list-users" data-action="list" data-list="users" data-params="list=users&amp;sort=likes_desc&amp;page=1" data-params-hidden="" data-load="classic">
+        </div>
+        <div id="list-user-az-asc" class="tabbed-content content-listing hidden list-users" data-action="list" data-list="users" data-params="list=users&amp;sort=username_asc&amp;page=1" data-params-hidden="" data-load="classic">
+        </div>
+<script id="viewer-template" type="text/x-chv-template">
+	<div class="viewer viewer--hide list-item">
+		<div class="viewer-content no-select">
+			<a href="%url_viewer%" target="_blank"><img class="viewer-src no-select animate" src="%display_url%" alt="%filename%" width="%width%" height="%height%"></a>
+            <div id="image-viewer-360" class="soft-hidden"></div>
+		</div>
+		<div class="viewer-wheel phone-hide phablet-hide tablet-hide hover-display">
+			<div class="viewer-wheel-prev animate" data-action="viewer-prev"><span class="icon fas fa-angle-left"></span></div>
+			<div class="viewer-wheel-next animate" data-action="viewer-next"><span class="icon fas fa-angle-right"></span></div>
+		</div>
+		<ul class="viewer-tools list-item-image-tools hover-display idle-display no-select" data-action="list-tools">
+			<div data-action="viewer-close" title="Close">
+				<span class="btn-icon fas fa-times"></span>
+			</div>
+		</ul>
+		<div class="viewer-foot hover-display hover-display--flex">
+			<div class="viewer-owner viewer-owner--user">
+				<a href="%user.url%" class="user-image">
+					<span class="user-image default-user-image"><span class="icon fas fa-user-circle"></span></span>
+					<img class="user-image" src="%user.avatar.url%" alt="%user.username%">
+				</a>
+				<a href="%user.url%" class="user-name">%user.name_short_html%</a>
+			</div>
+			<div class="viewer-owner viewer-owner--guest">
+				<div class="user-image default-user-image"><span class="icon fas fa-user-circle"></span></div>
+				<span class="user-name">Guest</span>
+			</div>
+			<div class="viewer-kb phone-hide phablet-hide tablet-hide no-select">
+                <div class="viewer-kb-input" title="Keyboard shortcuts">
+                    <div class="viewer-kb-key" data-key="◄"><kbd>◄</kbd><span>Previous</span></div>
+                    <div class="viewer-kb-key" data-key="►"><kbd>►</kbd><span>Next</span></div>
+                    <div class="viewer-kb-key" data-key="W"><kbd>W</kbd><kbd>R-click</kbd><span>Zoom</span></div>
+										<div class="viewer-kb-key" data-key="L"><kbd>L</kbd><span>Like</span></div>
+										<div class="viewer-kb-key" data-key="Esc"><kbd>Esc</kbd><span>Close</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="list-item-privacy list-item-image-tools --top --left">
+			<div class="btn-icon btn-lock fas fa-eye-slash"></div>
+		</div>
+        <div class="list-item-image-tools --bottom --right">
+                    <div class="list-item-share" data-action="share">
+                <span class="btn-icon btn-share fas fa-share-alt"></span>
+            </div>
+                        <div class="list-item-like" data-action="like">
+                <span class="btn-icon btn-like btn-liked fas fa-heart"></span>
+                <span class="btn-icon btn-like btn-unliked far fa-heart"></span>
+            </div>
+                    </div>
+	</div>
+</script>
+
+<div data-template="content-listing" class="hidden">
+	<div class="pad-content-listing"></div>
+	<div class="content-listing-more">
+		<button class="btn default" data-action="load-more"><i class="fas fa-plus-circle"></i> Load more</button>
+	</div>
+	<div class="content-listing-loading" style="line-height: 30px;"><span class="loading-indicator" style="width: 30px; height: 30px;"><div class="spinner" role="progressbar" style="position: relative; width: 0px; z-index: auto; left: 15px; top: 15px;"><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-0-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(0deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-1-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(32deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-2-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(65deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-3-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(98deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-4-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(130deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-5-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(163deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-6-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(196deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-7-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(229deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-8-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(261deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-9-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(294deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-10-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(327deg) translate(10px, 0px); border-radius: 2px;"></div></div></div></span></div>
+	<div class="content-listing-pagination"><a data-action="load-more">Load more</a></div>
+</div>
+<div data-template="content-listing-empty" class="hidden">
+
+<div class="content-empty">
+	<span class="icon fas fa-inbox"></span>
+	<h2>There's nothing to show here.</h2>
+</div>
+</div>
+<div data-template="content-listing-loading" class="hidden">
+	<div class="content-listing-loading" style="line-height: 30px;"><span class="loading-indicator" style="width: 30px; height: 30px;"><div class="spinner" role="progressbar" style="position: relative; width: 0px; z-index: auto; left: 15px; top: 15px;"><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-0-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(0deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-1-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(32deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-2-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(65deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-3-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(98deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-4-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(130deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-5-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(163deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-6-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(196deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-7-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(229deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-8-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(261deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-9-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(294deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-45-25-10-11;"><div style="position: absolute; width: 5px; height: 5px; background: rgb(22, 28, 29); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(327deg) translate(10px, 0px); border-radius: 2px;"></div></div></div></span></div>
+</div>
+    </div>
+</div></div>
+</div>
+</div>
+<script>
+	$(document).ready(function() {
+		if(typeof CHV == "undefined") {
+			CHV = {obj: {}, fn: {}, str:{}};
+		} else {
+			if(typeof CHV.obj.embed_tpl == "undefined") {
+				CHV.obj.embed_tpl = {};
+			}
+		}
+		CHV.obj.embed_tpl = {"links":{"label":"Links","options":{"viewer-links":{"label":"Viewer links","template":"%URL_VIEWER%","size":"viewer"},"direct-links":{"label":"Direct links","template":"%URL%","size":"full"},"delete-links":{"label":"Delete links","template":"%DELETE_URL%","size":"full"}}},"html-codes":{"label":"HTML Codes","options":{"html-embed":{"label":"HTML image","template":"<img src=\"%URL%\" alt=\"%FILENAME%\" border=\"0\">","size":"full"},"html-embed-full":{"label":"HTML full linked","template":"<a href=\"%URL_VIEWER%\"><img src=\"%URL%\" alt=\"%FILENAME%\" border=\"0\"><\/a>","size":"full"},"html-embed-medium":{"label":"HTML medium linked","template":"<a href=\"%URL_VIEWER%\"><img src=\"%MEDIUM_URL%\" alt=\"%MEDIUM_FILENAME%\" border=\"0\"><\/a>","size":"medium"},"html-embed-thumbnail":{"label":"HTML thumbnail linked","template":"<a href=\"%URL_VIEWER%\"><img src=\"%THUMB_URL%\" alt=\"%THUMB_FILENAME%\" border=\"0\"><\/a>","size":"thumb"}}},"bbcodes":{"label":"BBCodes","options":{"bbcode-embed":{"label":"BBCode full","template":"[img]%URL%[\/img]","size":"full"},"bbcode-embed-full":{"label":"BBCode full linked","template":"[url=%URL_VIEWER%][img]%URL%[\/img][\/url]","size":"full"},"bbcode-embed-medium":{"label":"BBCode medium linked","template":"[url=%URL_VIEWER%][img]%MEDIUM_URL%[\/img][\/url]","size":"medium"},"bbcode-embed-thumbnail":{"label":"BBCode thumbnail linked","template":"[url=%URL_VIEWER%][img]%THUMB_URL%[\/img][\/url]","size":"thumb"}}},"markdown":{"label":"Markdown","options":{"markdown-embed":{"label":"Markdown full","template":"![%FILENAME%](%URL%)","size":"full"},"markdown-embed-full":{"label":"Markdown full linked","template":"[![%FILENAME%](%URL%)](%URL_VIEWER%)","size":"full"},"markdown-embed-medium":{"label":"Markdown medium linked","template":"[![%MEDIUM_FILENAME%](%MEDIUM_URL%)](%URL_VIEWER%)","size":"medium"},"markdown-embed-thumbnail":{"label":"Markdown thumbnail linked","template":"[![%THUMB_FILENAME%](%THUMB_URL%)](%URL_VIEWER%)","size":"thumb"}}}};
+	});
+</script>
+<div data-modal="form-embed-codes" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-code"></i> Embed codes</span>
+    <div class="image-preview"></div>
+	<div class="input-label margin-bottom-0">
+		<div class="c7 margin-bottom-10">
+			<select name="form-embed-toggle" id="form-embed-toggle" class="text-input" data-combo="form-embed-toggle-combo">
+				<optgroup label="Links">
+	<option value="viewer-links" data-size="viewer">Viewer links</option>
+	<option value="direct-links" data-size="full">Direct links</option>
+</optgroup><optgroup label="HTML Codes">
+	<option value="html-embed" data-size="full">HTML image</option>
+	<option value="html-embed-full" data-size="full">HTML full linked</option>
+	<option value="html-embed-medium" data-size="medium">HTML medium linked</option>
+	<option value="html-embed-thumbnail" data-size="thumb">HTML thumbnail linked</option>
+</optgroup><optgroup label="BBCodes">
+	<option value="bbcode-embed" data-size="full">BBCode full</option>
+	<option value="bbcode-embed-full" data-size="full">BBCode full linked</option>
+	<option value="bbcode-embed-medium" data-size="medium">BBCode medium linked</option>
+	<option value="bbcode-embed-thumbnail" data-size="thumb">BBCode thumbnail linked</option>
+</optgroup><optgroup label="Markdown">
+	<option value="markdown-embed" data-size="full">Markdown full</option>
+	<option value="markdown-embed-full" data-size="full">Markdown full linked</option>
+	<option value="markdown-embed-medium" data-size="medium">Markdown medium linked</option>
+	<option value="markdown-embed-thumbnail" data-size="thumb">Markdown thumbnail linked</option>
+</optgroup>			</select>
+		</div>
+		<div id="form-embed-toggle-combo">
+			<div data-combo-value="viewer-links" class="switch-combo">
+							<textarea id="modal-embed-code-0" class="r3 resize-vertical" name="viewer-links" data-size="viewer" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-0"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="direct-links" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-1" class="r3 resize-vertical" name="direct-links" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-1"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="delete-links" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-2" class="r3 resize-vertical" name="delete-links" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-2"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="html-embed" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-3" class="r3 resize-vertical" name="html-embed" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-3"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="html-embed-full" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-4" class="r3 resize-vertical" name="html-embed-full" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-4"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="html-embed-medium" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-5" class="r3 resize-vertical" name="html-embed-medium" data-size="medium" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-5"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="html-embed-thumbnail" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-6" class="r3 resize-vertical" name="html-embed-thumbnail" data-size="thumb" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-6"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="bbcode-embed" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-7" class="r3 resize-vertical" name="bbcode-embed" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-7"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="bbcode-embed-full" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-8" class="r3 resize-vertical" name="bbcode-embed-full" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-8"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="bbcode-embed-medium" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-9" class="r3 resize-vertical" name="bbcode-embed-medium" data-size="medium" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-9"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="bbcode-embed-thumbnail" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-10" class="r3 resize-vertical" name="bbcode-embed-thumbnail" data-size="thumb" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-10"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="markdown-embed" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-11" class="r3 resize-vertical" name="markdown-embed" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-11"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="markdown-embed-full" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-12" class="r3 resize-vertical" name="markdown-embed-full" data-size="full" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-12"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="markdown-embed-medium" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-13" class="r3 resize-vertical" name="markdown-embed-medium" data-size="medium" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-13"><i class="far fa-copy"></i> copy</button>
+						</div>
+<div data-combo-value="markdown-embed-thumbnail" class="switch-combo soft-hidden">
+							<textarea id="modal-embed-code-14" class="r3 resize-vertical" name="markdown-embed-thumbnail" data-size="thumb" data-focus="select-all"></textarea>
+							<button type="button" class="input-action" data-action="copy" data-action-target="#modal-embed-code-14"><i class="far fa-copy"></i> copy</button>
+						</div>
+		</div>
+	</div>
+</div>
+<div id="anywhere-upload" class="no-select upload-box upload-box--fixed upload-box--hidden queueEmpty" data-queue-size="0">
+	<div class="content-width">
+    	<div class="upload-box-inner">
+        	<div class="upload-box-heading c18 center-box">
+				<div class="upload-box-status">
+					<div data-group="upload">
+						<span class="icon fas fa-photo-video color-accent cursor-pointer" data-trigger="anywhere-upload-input"></span>
+						<div class="heading device-mobile--hide"><a data-trigger="anywhere-upload-input">Drag and drop or paste files here to upload</a></div>
+						<div class="heading device-nonmobile--hide"><a data-trigger="anywhere-upload-input">Select the files to upload</a></div>
+                        						<div class="device-mobile--hide upload-box-status-text">You can also <a data-trigger="anywhere-upload-input"><i class="fas fa-folder-plus margin-right-5"></i>browse from your computer</a>.</div>
+						<div class="device-nonmobile--hide upload-box-status-text">You can also <a data-trigger="anywhere-upload-input"><i class="fas fa-folder-plus margin-right-5"></i>browse from your device</a> or <a data-trigger="anywhere-upload-input-camera"><i class="fas fa-camera margin-right-5"></i>take a picture</a>.</div>
+                        <div class="upload-box-allowed-files margin-top-10">
+                            <span>JPG PNG BMP GIF WEBP</span>
+                            <span class="margin-left-5">25 MB                            </span>
+                        </div>
+					</div>
+					<div data-group="upload-queue-ready" class="soft-hidden">
+						<span class="icon fas fa-photo-video color-accent cursor-pointer" data-trigger="anywhere-upload-input"></span>
+						<div class="heading device-mobile--hide">Customize upload by clicking on any preview</div>
+						<div class="heading device-nonmobile--hide">Customize upload by touching on any preview</div>
+                        <div class="device-mobile--hide upload-box-status-text">You can also <a data-trigger="anywhere-upload-input"><i class="fas fa-folder-plus margin-right-5"></i>browse from your computer</a>.</div>
+						<div class="device-nonmobile--hide upload-box-status-text">You can also <a data-trigger="anywhere-upload-input"><i class="fas fa-folder-plus margin-right-5"></i>browse from your device</a> or <a data-trigger="anywhere-upload-input-camera"><i class="fas fa-camera margin-right-5"></i>take a picture</a>.</div>
+					</div>
+					<div data-group="uploading" class="soft-hidden">
+						<span class="icon fas fa-cloud-upload-alt color-accent"></span>
+						<div class="heading">Uploading <span data-text="queue-size">0</span> <span data-text="queue-objects">files</span> (<span data-text="queue-progress">0</span>% complete)</div>
+						<div class="upload-box-status-text">The queue is being uploaded, it should take just a few seconds to complete.</div>
+					</div>
+					<div data-group="upload-result" data-result="success" class="soft-hidden">
+						<span class="icon fas fa-check-circle color-success"></span>
+						<div class="heading">Upload complete</div>
+						<div class="upload-box-status-text">
+							<div data-group="user" class="soft-hidden">
+								<div data-group="user-stream" class="soft-hidden">
+								Uploaded content added to <a data-link="upload-target"><i class="fas fa-user margin-right-5"></i><span data-text="upload-target"></span></a>. You can <a data-modal="form" data-target="form-uploaded-create-album"><i class="fas fa-images margin-right-5"></i>create a new album</a> with the content just uploaded.								</div>
+								<div data-group="user-album" class="soft-hidden">Uploaded content added to <a data-link="upload-target"><i class="fas fa-user margin-right-5"></i><span data-text="upload-target"></span></a>.</div>
+							</div>
+							<div data-group="guest" class="soft-hidden">
+							You can <a data-modal="form" data-target="form-uploaded-create-album"><i class="fas fa-images margin-right-5"></i>create a new album</a> with the content just uploaded. You must <a href="#"><i class="fas fa-user-plus margin-right-5"></i>create an account</a> or <a href="#"><i class="fas fa-sign-in-alt margin-right-5"></i>sign in</a> to save this content into your account.							</div>
+						</div>
+					</div>
+					<div data-group="upload-result" data-result="error" class="soft-hidden">
+						<span class="icon fas fa-times color-fail"></span>
+						<div class="heading">No <span data-text="queue-objects">file</span> have been uploaded</div>
+						<div class="upload-box-status-text">Some errors have occurred and the system couldn't process your request.</div>
+					</div>
+				</div>
+            </div>
+			<input id="anywhere-upload-input" data-action="anywhere-upload-input" class="hidden-visibility" type="file" accept="image/*, .jpg,.png,.bmp,.gif,.webp,.jpeg" multiple="">
+			<input id="anywhere-upload-input-camera" data-action="anywhere-upload-input" class="hidden-visibility" type="file" capture="camera" accept="image/*">
+			<ul id="anywhere-upload-queue" class="upload-box-queue content-width soft-hidden" data-group="upload-queue"></ul>
+			<div id="anywhere-upload-submit" class="btn-container text-align-center margin-bottom-0 soft-hidden" data-group="upload-queue-ready">
+				<div data-group="upload-queue-ready">
+															<div class="input-label upload-input-col center-box text-align-left">
+						<label for="upload-category-id">Category</label>
+						<select name="upload-category-id" id="upload-category-id" class="text-input">
+							<option value="">Select category</option>
+														<option value="8">Abstract</option>
+														<option value="1">Animals</option>
+														<option value="5">Art</option>
+														<option value="9">City</option>
+														<option value="7">Landscapes</option>
+														<option value="6">Movies</option>
+														<option value="3">Nature</option>
+														<option value="2">People</option>
+														<option value="4">Tech</option>
+													</select>
+					</div>
+					                                    <div class="input-label upload-input-col center-box text-align-left">
+                    <label for="upload-expiration">Auto delete</label>
+                    <select type="text" name="upload-expiration" id="upload-expiration" class="text-input">
+                    <option value="" selected="">Don't autodelete</option>
+<option value="PT5M">After 5 minutes</option>
+<option value="PT15M">After 15 minutes</option>
+<option value="PT30M">After 30 minutes</option>
+<option value="PT1H">After 1 hour</option>
+<option value="PT3H">After 3 hours</option>
+<option value="PT6H">After 6 hours</option>
+<option value="PT12H">After 12 hours</option>
+<option value="P1D">After 1 day</option>
+<option value="P2D">After 2 days</option>
+<option value="P3D">After 3 days</option>
+<option value="P4D">After 4 days</option>
+<option value="P5D">After 5 days</option>
+<option value="P6D">After 6 days</option>
+<option value="P1W">After 1 week</option>
+<option value="P2W">After 2 weeks</option>
+<option value="P3W">After 3 weeks</option>
+<option value="P1M">After 1 month</option>
+<option value="P2M">After 2 months</option>
+<option value="P3M">After 3 months</option>
+<option value="P4M">After 4 months</option>
+<option value="P5M">After 5 months</option>
+<option value="P6M">After 6 months</option>
+<option value="P1Y">After 1 year</option>
+                    </select>
+					                </div>
+                										<div class="margin-20"><span rel="tooltip" data-tiptip="top" title="Mark this if the upload is not family safe"><input type="checkbox" name="upload-nsfw" id="upload-nsfw" class="margin-right-5" value="1"><label for="upload-nsfw">Not family safe upload</label></span></div>
+										<button class="btn btn-big accent" data-action="upload" data-public="Upload" data-private="Private upload"><i class="fas fa-cloud-upload-alt"></i> Upload</button>
+				</div>
+				<div data-group="uploading" class="soft-hidden">
+					<button class="btn plain disabled btn-big plain margin-right-5" disabled="" data-action="upload-privacy-copy"><span class="icon fas fa-lock-open" data-lock="fa-lock" data-unlock="fa-lock-open"></span></button><button class="btn btn-big disabled off" disabled="">Uploading</button> <span class="btn-alt">or <a data-action="cancel-upload" data-button="close-cancel">cancel</a><a data-action="cancel-upload-remaining" data-button="close-cancel" class="soft-hidden">cancel remaining</a></span>
+				</div>
+			</div>
+			<div id="anywhere-upload-report">
+				<div data-group="upload-result" data-result="mixted" class="soft-hidden margin-top-10 text-align-center upload-box-status-text">Note: Some files couldn't be uploaded. <a data-modal="simple" data-target="failed-upload-result">learn more</a></div>
+				<div data-group="upload-result" data-result="error" class="soft-hidden margin-top-10 text-align-center upload-box-status-text">Check the <a data-modal="simple" data-target="failed-upload-result">error report</a> for more information.</div>
+			</div>
+			<div class="upload-box-close position-absolute">
+				<a class="btn btn-small default" data-action="reset-upload" data-button="close-cancel"><span class="btn-icon fas fa-undo"></span><span class="btn-text">reset</span></a>
+				<a class="btn btn-small default" data-action="cancel-upload" data-button="close-cancel"><span class="btn-icon fas fa-times"></span><span class="btn-text">cancel</span></a>
+				<a class="btn btn-small default" data-action="cancel-upload-remaining" data-button="close-cancel"><span class="btn-icon fas fa-times"></span><span class="btn-text">cancel remaining</span></a>
+			</div>
+						<div data-group="upload-result" data-result="success" class="c18 center-box soft-hidden">
+				<div class="input-label margin-bottom-0">
+                    					<label for="uploaded-embed-toggle">Embed codes</label>
+					<div class="c7 margin-bottom-10">
+						<select name="uploaded-embed-toggle" id="uploaded-embed-toggle" class="text-input" data-combo="uploaded-embed-toggle-combo">
+                            <optgroup label="Links">
+	<option value="viewer-links" data-size="viewer">Viewer links</option>
+	<option value="direct-links" data-size="full">Direct links</option>
+	<option value="delete-links" data-size="full">Delete links</option>
+</optgroup><optgroup label="HTML Codes">
+	<option value="html-embed" data-size="full">HTML image</option>
+	<option value="html-embed-full" data-size="full">HTML full linked</option>
+	<option value="html-embed-medium" data-size="medium">HTML medium linked</option>
+	<option value="html-embed-thumbnail" data-size="thumb">HTML thumbnail linked</option>
+</optgroup><optgroup label="BBCodes">
+	<option value="bbcode-embed" data-size="full">BBCode full</option>
+	<option value="bbcode-embed-full" data-size="full">BBCode full linked</option>
+	<option value="bbcode-embed-medium" data-size="medium">BBCode medium linked</option>
+	<option value="bbcode-embed-thumbnail" data-size="thumb">BBCode thumbnail linked</option>
+</optgroup><optgroup label="Markdown">
+	<option value="markdown-embed" data-size="full">Markdown full</option>
+	<option value="markdown-embed-full" data-size="full">Markdown full linked</option>
+	<option value="markdown-embed-medium" data-size="medium">Markdown medium linked</option>
+	<option value="markdown-embed-thumbnail" data-size="thumb">Markdown thumbnail linked</option>
+</optgroup>						</select>
+					</div>
+					<div id="uploaded-embed-toggle-combo">
+						<div data-combo-value="viewer-links" class="switch-combo">
+										<textarea id="uploaded-embed-code-0" class="r2 resize-vertical" name="viewer-links" data-size="viewer" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-0"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-0">insert</button>
+									</div>
+<div data-combo-value="direct-links" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-1" class="r2 resize-vertical" name="direct-links" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-1"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-1">insert</button>
+									</div>
+<div data-combo-value="delete-links" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-2" class="r2 resize-vertical" name="delete-links" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-2"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-2">insert</button>
+									</div>
+<div data-combo-value="html-embed" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-3" class="r2 resize-vertical" name="html-embed" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-3"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-3">insert</button>
+									</div>
+<div data-combo-value="html-embed-full" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-4" class="r2 resize-vertical" name="html-embed-full" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-4"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-4">insert</button>
+									</div>
+<div data-combo-value="html-embed-medium" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-5" class="r2 resize-vertical" name="html-embed-medium" data-size="medium" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-5"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-5">insert</button>
+									</div>
+<div data-combo-value="html-embed-thumbnail" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-6" class="r2 resize-vertical" name="html-embed-thumbnail" data-size="thumb" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-6"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-6">insert</button>
+									</div>
+<div data-combo-value="bbcode-embed" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-7" class="r2 resize-vertical" name="bbcode-embed" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-7"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-7">insert</button>
+									</div>
+<div data-combo-value="bbcode-embed-full" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-8" class="r2 resize-vertical" name="bbcode-embed-full" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-8"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-8">insert</button>
+									</div>
+<div data-combo-value="bbcode-embed-medium" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-9" class="r2 resize-vertical" name="bbcode-embed-medium" data-size="medium" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-9"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-9">insert</button>
+									</div>
+<div data-combo-value="bbcode-embed-thumbnail" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-10" class="r2 resize-vertical" name="bbcode-embed-thumbnail" data-size="thumb" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-10"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-10">insert</button>
+									</div>
+<div data-combo-value="markdown-embed" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-11" class="r2 resize-vertical" name="markdown-embed" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-11"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-11">insert</button>
+									</div>
+<div data-combo-value="markdown-embed-full" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-12" class="r2 resize-vertical" name="markdown-embed-full" data-size="full" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-12"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-12">insert</button>
+									</div>
+<div data-combo-value="markdown-embed-medium" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-13" class="r2 resize-vertical" name="markdown-embed-medium" data-size="medium" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-13"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-13">insert</button>
+									</div>
+<div data-combo-value="markdown-embed-thumbnail" class="switch-combo soft-hidden">
+										<textarea id="uploaded-embed-code-14" class="r2 resize-vertical" name="markdown-embed-thumbnail" data-size="thumb" data-focus="select-all"></textarea>
+										<button type="button" class="input-action" data-action="copy" data-action-target="#uploaded-embed-code-14"><i class="far fa-copy"></i> copy</button>
+										<button class="input-action" data-action="openerPostMessage" data-action-target="#uploaded-embed-code-14">insert</button>
+									</div>
+					</div>
+				</div>
+			</div>
+			        </div>
+    </div>
+	<div class="hidden">
+		<div id="anywhere-upload-item-template">
+			<li class="queue-item">
+				<a class="block image-link" data-group="image-link" href="##file" target="_blank"></a>
+				<div class="result done block"><span class="icon fas fa-check-circle color-white"></span></div>
+				<div class="result failed block"><span class="icon fas fa-exclamation-triangle color-fail"></span></div>
+				<div class="load-url block"><span class="big-icon fas fa-network-wired"></span></div>
+				<div class="preview block checkered-background"></div>
+				<div class="progress block">
+					<div class="progress-bar" data-content="progress-bar"></div>
+				</div>
+				<div class="block edit" data-action="edit" title="Edit">
+				</div>
+				<div class="queue-item-button cancel hover-display" data-action="cancel" title="Remove">
+					<span class="icon fas fa-times"></span>
+				</div>
+			</li>
+		</div>
+		<div id="anywhere-upload-edit-item">
+			<span class="modal-box-title"><i class="fas fa-edit"></i> Edit</span>
+			<div class="modal-form">
+				<div class="image-preview"></div>
+				<div class="input-label">
+					<label for="form-title">Title <span class="optional">optional</span></label>
+					<input type="text" id="form-title" name="form-title" class="text-input" value="" maxlength="100">
+				</div>
+												<div class="input-label c8">
+					<label for="form-category-id">Category</label>
+<select name="form-category-id" id="form-category-id" class="text-input">
+		<option value="" selected="">Select category</option>
+		<option value="8">Abstract</option>
+		<option value="1">Animals</option>
+		<option value="5">Art</option>
+		<option value="9">City</option>
+		<option value="7">Landscapes</option>
+		<option value="6">Movies</option>
+		<option value="3">Nature</option>
+		<option value="2">People</option>
+		<option value="4">Tech</option>
+	</select>
+				</div>
+								<div class="input-label" data-action="resize-combo-input">
+					<label for="form-width" class="display-block-forced">Resize image</label>
+					<div class="c6 overflow-auto clear-both">
+						<div class="c3 float-left">
+							<input type="number" min="16" pattern="\d+" name="form-width" id="form-width" class="text-input" title="Width" rel="template-tooltip" data-tiptip="top">
+						</div>
+						<div class="c3 float-left margin-left-10">
+							<input type="number" min="16" pattern="\d+" name="form-height" id="form-height" class="text-input" title="Height" rel="template-tooltip" data-tiptip="top">
+						</div>
+					</div>
+					<div class="input-below font-size-small" data-content="animated-gif-warning">Note: Animated GIF images won't be resized.</div>
+				</div>
+                                <div class="input-label">
+                    <label for="form-expiration">Auto delete</label>
+                    <div class="c6 phablet-1">
+                        <select type="text" name="form-expiration" id="form-expiration" class="text-input">
+                        <option value="" selected="">Don't autodelete</option>
+<option value="PT5M">After 5 minutes</option>
+<option value="PT15M">After 15 minutes</option>
+<option value="PT30M">After 30 minutes</option>
+<option value="PT1H">After 1 hour</option>
+<option value="PT3H">After 3 hours</option>
+<option value="PT6H">After 6 hours</option>
+<option value="PT12H">After 12 hours</option>
+<option value="P1D">After 1 day</option>
+<option value="P2D">After 2 days</option>
+<option value="P3D">After 3 days</option>
+<option value="P4D">After 4 days</option>
+<option value="P5D">After 5 days</option>
+<option value="P6D">After 6 days</option>
+<option value="P1W">After 1 week</option>
+<option value="P2W">After 2 weeks</option>
+<option value="P3W">After 3 weeks</option>
+<option value="P1M">After 1 month</option>
+<option value="P2M">After 2 months</option>
+<option value="P3M">After 3 months</option>
+<option value="P4M">After 4 months</option>
+<option value="P5M">After 5 months</option>
+<option value="P6M">After 6 months</option>
+<option value="P1Y">After 1 year</option>
+                        </select>
+                    </div>
+					                </div>
+                                				<div class="checkbox-label">
+					<div class="display-inline" rel="template-tooltip" data-tiptip="right" data-title="Mark this if the image is not family safe">
+						<label for="form-nsfw">
+							<input class="float-left" type="checkbox" name="form-nsfw" id="form-nsfw" value="1">Flag as unsafe						</label>
+					</div>
+				</div>
+                				<div class="input-label">
+					<label for="form-description">Description <span class="optional">optional</span></label>
+					<textarea id="form-description" name="form-description" class="text-input no-resize" placeholder="Brief description of this image"></textarea>
+				</div>
+			</div>
+		</div>
+        	</div>
+		<div data-modal="form-uploaded-create-album" class="hidden" data-is-xhr="" data-submit-fn="CHV.fn.submit_upload_edit" data-ajax-deferred="CHV.fn.complete_upload_edit">
+		<span class="modal-box-title"><i class="fas fa-images"></i> Create album</span>
+		<p>The uploaded content will be moved to this newly created album. </p>
+		<div class="modal-form">
+						<div name="move-existing-album" id="move-existing-album" data-view="switchable" class="c7 input-label soft-hidden">
+				<label for="form-album-id">Existing album</label>
+<select name="form-album-id" id="form-album-id" class="text-input">
+	</select>
+<span class="btn-alt c7">or <a data-switch="move-new-album"><i class="fas fa-images margin-right-5"></i>create new album</a></span>
+			</div>
+						<div name="move-new-album" id="move-new-album" data-content="form-new-album" data-view="switchable">
+				<div class="c7 input-label">
+	    <label for="form-album-name">Album name</label>
+    <input type="text" name="form-album-name" class="text-input" value="" placeholder="Album name" maxlength="100" required="" autocomplete="off">
+	    <span data-action="album-switch" class="btn-alt c7">or <a data-switch="move-existing-album"><i class="fas fa-exchange-alt margin-right-5"></i>move to existing album</a></span>
+	</div>
+<div class="input-label">
+	<label for="form-album-description">Album description <span class="optional">optional</span></label>
+	<textarea id="form-album-description" name="form-album-description" class="text-input no-resize" placeholder="Brief description of this album"></textarea>
+</div>
+<div class="input-label overflow-auto">
+    <div class="c7 grid-columns">
+		<label for="form-privacy">Album privacy</label>
+		<select name="form-privacy" id="form-privacy" class="text-input" data-combo="form-privacy-combo" rel="template-tooltip" data-tiptip="right" data-title="Who can view this content">
+			<option value="public">Public</option><option value="private">Private (just me)</option><option value="private_but_link">Private (anyone with the link)</option><option value="password">Private (password protected)</option>		</select>
+	</div>
+</div>
+<div id="form-privacy-combo">
+	<div data-combo-value="password" class="switch-combo soft-hidden">
+		<div class="input-label overflow-auto">
+			<div class="c7 grid-columns">
+				<label for="form-album-password">Album password</label>
+                <p></p>
+				<input type="text" name="form-album-password" class="text-input" placeholder="Set password" data-required="">
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<div data-modal="form-uploaded-move-album" class="hidden" data-is-xhr="" data-submit-fn="CHV.fn.submit_upload_edit" data-ajax-deferred="CHV.fn.complete_upload_edit">
+		<span class="modal-box-title"><i class="fas fa-exchange-alt"></i> Move to album</span>
+		<p>Select an existing album to move the uploaded content.</p>
+		<div class="modal-form">
+			<div name="move-existing-album" id="move-existing-album" data-view="switchable" class="c7 input-label">
+				<label for="form-album-id">Existing album</label>
+<select name="form-album-id" id="form-album-id" class="text-input">
+	</select>
+<span class="btn-alt c7">or <a data-switch="move-new-album"><i class="fas fa-images margin-right-5"></i>create new album</a></span>
+			</div>
+			<div name="move-new-album" id="move-new-album" data-content="form-new-album" data-view="switchable" class="soft-hidden">
+				<div class="c7 input-label">
+	    <label for="form-album-name">Album name</label>
+    <input type="text" name="form-album-name" class="text-input" value="" placeholder="Album name" maxlength="100" required="" autocomplete="off">
+	    <span data-action="album-switch" class="btn-alt c7">or <a data-switch="move-existing-album"><i class="fas fa-exchange-alt margin-right-5"></i>move to existing album</a></span>
+	</div>
+<div class="input-label">
+	<label for="form-album-description">Album description <span class="optional">optional</span></label>
+	<textarea id="form-album-description" name="form-album-description" class="text-input no-resize" placeholder="Brief description of this album"></textarea>
+</div>
+<div class="input-label overflow-auto">
+    <div class="c7 grid-columns">
+		<label for="form-privacy">Album privacy</label>
+		<select name="form-privacy" id="form-privacy" class="text-input" data-combo="form-privacy-combo" rel="template-tooltip" data-tiptip="right" data-title="Who can view this content">
+			<option value="public">Public</option><option value="private">Private (just me)</option><option value="private_but_link">Private (anyone with the link)</option><option value="password">Private (password protected)</option>		</select>
+	</div>
+</div>
+<div id="form-privacy-combo">
+	<div data-combo-value="password" class="switch-combo soft-hidden">
+		<div class="input-label overflow-auto">
+			<div class="c7 grid-columns">
+				<label for="form-album-password">Album password</label>
+                <p></p>
+				<input type="text" name="form-album-password" class="text-input" placeholder="Set password" data-required="">
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<div data-modal="failed-upload-result" class="hidden">
+		<span class="modal-box-title"><i class="fas fa-exclamation-circle"></i> Error report</span>
+		<ul data-content="failed-upload-result" style="max-height: 115px;" class="overflow-auto"></ul>
+	</div>
+</div>
+<div id="modal-share" class="hidden">
+	<span class="modal-box-title"><i class="fas fa-share-alt"></i> Share</span>
+    <div class="image-preview"></div>
+    <p class="highlight margin-bottom-20 font-size-small text-align-center padding-5" data-content="privacy-private">__privacy_notes__</p>
+	<ul class="panel-share-networks">
+		<li class="hidden phone-display-inline-block"><a data-href="share:title=__title__&amp;url=__url__" class="popup-link btn-32 btn-social btn-share" rel="tooltip" data-tiptip="top" title="Share"><span class="btn-icon fas fa-share"></span></a></li><li><a data-href="mailto:?subject=__title__&amp;body=__url__" class="popup-link btn-32 btn-social btn-at" rel="tooltip" data-tiptip="top" title="Email"><span class="btn-icon fas fa-at"></span></a></li><li><a data-href="http://www.facebook.com/share.php?u=__url__" class="popup-link btn-32 btn-social btn-facebook" rel="tooltip" data-tiptip="top" title="Facebook"><span class="btn-icon fab fa-facebook"></span></a></li><li><a data-href="https://twitter.com/intent/tweet?original_referer=__url__&amp;url=__url__&amp;text=__title__&amp;via=chevereto" class="popup-link btn-32 btn-social btn-twitter" rel="tooltip" data-tiptip="top" title="Twitter"><span class="btn-icon fab fa-twitter"></span></a></li><li class="hidden phone-display-inline-block"><a data-href="whatsapp://send?text=__title__ - view on Chevereto: __url__" class="popup-link btn-32 btn-social btn-whatsapp" rel="tooltip" data-tiptip="top" title="WhatsApp"><span class="btn-icon fab fa-whatsapp"></span></a></li><li class="hidden phone-display-inline-block"><a data-href="https://t.me/share/url?url=__url__&amp;text=__title__" class="popup-link btn-32 btn-social btn-telegram" rel="tooltip" data-tiptip="top" title="Telegram"><span class="btn-icon fab fa-telegram"></span></a></li><li><a data-href="https://api.qrserver.com/v1/create-qr-code/?size=154x154&amp;data=__url__" class="popup-link btn-32 btn-social btn-weixin" rel="tooltip" data-tiptip="top" title="分享到微信"><span class="btn-icon fab fa-weixin"></span></a></li><li><a data-href="https://service.weibo.com/share/share.php?url=__url__&amp;title=__title__&amp;pic=__image__&amp;searchPic=true" class="popup-link btn-32 btn-social btn-weibo" rel="tooltip" data-tiptip="top" title="分享到微博"><span class="btn-icon fab fa-weibo"></span></a></li><li><a data-href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=__url__&amp;pics=__image__&amp;title=__title__" class="popup-link btn-32 btn-social btn-qzone" rel="tooltip" data-tiptip="top" title="分享到QQ空间"><span class="btn-icon fas fa-star"></span></a></li><li><a data-href="https://connect.qq.com/widget/shareqq/index.html?url=__url__&amp;summary=description&amp;title=__title__&amp;pics=__image__" class="popup-link btn-32 btn-social btn-qq" rel="tooltip" data-tiptip="top" title="分享到QQ"><span class="btn-icon fab fa-qq"></span></a></li><li><a data-href="http://reddit.com/submit?url=__url__" class="popup-link btn-32 btn-social btn-reddit" rel="tooltip" data-tiptip="top" title="reddit"><span class="btn-icon fab fa-reddit"></span></a></li><li><a data-href="http://vk.com/share.php?url=__url__" class="popup-link btn-32 btn-social btn-vk" rel="tooltip" data-tiptip="top" title="VK"><span class="btn-icon fab fa-vk"></span></a></li><li><a data-href="http://www.blogger.com/blog-this.g?n=__title__&amp;source=&amp;b=%3Ca%20href%3D%22__url__%22%20title%3D%22__title__%22%3E%3Cimg%20src%3D%22__image__%22%20%2F%3E%3C%2Fa%3E" class="popup-link btn-32 btn-social btn-blogger" rel="tooltip" data-tiptip="top" title="Blogger"><span class="btn-icon fab fa-blogger"></span></a></li><li><a data-href="http://www.tumblr.com/share/photo?source=__image__&amp;caption=__title__&amp;clickthru=__url__&amp;title=__title__" class="popup-link btn-32 btn-social btn-tumblr" rel="tooltip" data-tiptip="top" title="Tumblr."><span class="btn-icon fab fa-tumblr"></span></a></li><li><a data-href="http://www.pinterest.com/pin/create/bookmarklet/?media=__image__&amp;url=__url__&amp;is_video=false&amp;description=description&amp;title=__title__" class="popup-link btn-32 btn-social btn-pinterest" rel="tooltip" data-tiptip="top" title="Pinterest"><span class="btn-icon fab fa-pinterest"></span></a></li>	</ul>
+	<div class="input-label margin-bottom-0">
+        <label for="modal-share-url">Link</label>
+        <div class="position-relative">
+            <input type="text" name="modal-share-url" id="modal-share-url" class="text-input" value="__url__" data-focus="select-all" readonly="">
+            <button type="button" class="input-action" data-action="copy" data-action-target="#modal-share-url" value=""><i class="far fa-copy"></i> copy</button>
+        </div>
+    </div>
+</div>
+<script defer="" data-cfasync="false" src="../src/scripts.min.js" id="jquery-js" onload="jQueryLoaded(this, event)"></script>
+<script defer="" data-cfasync="false" src="../src/peafowl.min.js" id="peafowl-js"></script>
+<script defer="" data-cfasync="false" src="../src/chevereto.min.js" id="chevereto-js"></script>
+<script data-cfasync="false">var CHEVERETO = {"id":"","edition":"Chevereto","version":"4.0.0","source":{"label":"chevereto.com","url":"https:\/\/chevereto.com\/panel\/downloads"},"api":{"download":"https:\/\/chevereto.com\/api\/download","get":{"info":"https:\/\/chevereto.com\/api\/get\/info\/4"}}}</script>	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"url": "#",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "#?q={q}",
+				"query-input": "required name=q"
+			}
+		}
+	</script>
+<script data-cfasync="false">
+	document.getElementById("chevereto-js").addEventListener("load", function() {
+		PF.obj.devices = window.devices;
+		PF.fn.window_to_device = window.window_to_device;
+		PF.obj.config.base_url = "#";
+		PF.obj.config.json_api = "#";
+		PF.obj.config.listing.items_per_page = "24";
+		PF.obj.config.listing.device_to_columns = {"phone":"3","phablet":"3","tablet":"4","laptop":"5","desktop":"6","largescreen":"6"};
+		PF.obj.config.auth_token = "0ef944b2068e2104153fd7c716120954e9dda087";
+		PF.obj.l10n = [];
+		if (typeof CHV == "undefined") {
+			CHV = {
+				obj: {},
+				fn: {},
+				str: {}
+			};
+		}
+		CHV.obj.vars = {
+			urls: {
+				home: PF.obj.config.base_url,
+				search: "#",
+				login: "#",
+			}
+		};
+		PF.obj.vars = $.extend({}, CHV.obj.vars);
+		CHV.obj.config = {
+			image: {
+				max_filesize: "25 MB",
+				right_click: false,
+				load_max_filesize: "3 MB",
+				max_width: "0",
+				max_height: "0",
+			},
+			upload: {
+				url: false,
+				redirect_single_upload: false,
+				threads: "2",
+                image_types: ["jpg","png","bmp","gif","webp","jpeg"],
+                moderation: false,
+			},
+			user: {
+				avatar_max_filesize: "1 MB",
+				background_max_filesize: "2 MB",
+			},
+			recaptcha: {
+				enabled: false,
+				sitekey: "",
+			},
+			listing: {
+				viewer: true,
+			},
+            palettesId: {"blanco":0,"dark":1,"flickr":2,"imgur":3,"deviantart":4,"lush":5,"graffiti":6,"abstract":7,"cheers":8,"cmyk":9}		};
+				CHV.obj.page_info = {"doctitle":"Users - Dashboard - Chevereto","pre_doctitle":"Users - Dashboard","pos_doctitle":" - Chevereto"};
+					CHV.obj.logged_user = {"name":"Administrator","username":"admin","id":"dzf","url":"http:\/\/localhost:44081\/admin","url_albums":"http:\/\/localhost:44081\/admin\/albums"};
+		                CHV.obj.system_info = {"version":"4.0.0"};
+        	});
+</script>
+
+
+<div id="tiptip_holder"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div><div contenteditable="true" id="anywhere-upload-paste"></div></body></html>
